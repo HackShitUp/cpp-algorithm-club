@@ -25,20 +25,14 @@ using namespace std;
  */
 class LinkedList {
 public:
-    // MARK: - Class Vars
-    
-    // MARK: - Node
-    Node* head;
-    
+
     // MARK: - Class Methods
     void printLinkedList(Node* head);
     Node* insertNodeAtIndex(Node* head, Node* newNode, int position);
     Node* removeNodeAtIndex(Node* head, int index);
     
-    Node* insertNodeAtHead(Node* head, int data);
-    
     /// MARK: - Init
-    LinkedList(Node* head);
+    LinkedList();
 };
 
 

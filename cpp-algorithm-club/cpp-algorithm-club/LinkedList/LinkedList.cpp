@@ -10,9 +10,8 @@
 
 /// MARK - Init
 /// @param head A Node pointer object representing the head of the linked list.
-LinkedList::LinkedList(Node* head) {
-    // MARK: - Node
-    this->head = head;
+LinkedList::LinkedList() {
+    cout << "Initialized LinkedList.";
 }
 
 /// Print the data values in a given Linked List.

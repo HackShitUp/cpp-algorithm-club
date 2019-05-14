@@ -10,6 +10,8 @@
 		7EC84F68228A03380035B557 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EC84F67228A03380035B557 /* main.cpp */; };
 		7EC84F70228A03560035B557 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EC84F6E228A03560035B557 /* Node.cpp */; };
 		7EC84F74228A05B10035B557 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EC84F72228A05B10035B557 /* LinkedList.cpp */; };
+		7EC84F78228A69930035B557 /* Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EC84F76228A69930035B557 /* Tree.cpp */; };
+		7EC84F7F228A6AB80035B557 /* Stack_Manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EC84F7D228A6AB80035B557 /* Stack_Manager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		7EC84F6F228A03560035B557 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		7EC84F72228A05B10035B557 /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
 		7EC84F73228A05B10035B557 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
+		7EC84F76228A69930035B557 /* Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tree.cpp; sourceTree = "<group>"; };
+		7EC84F77228A69930035B557 /* Tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tree.hpp; sourceTree = "<group>"; };
+		7EC84F7D228A6AB80035B557 /* Stack_Manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stack_Manager.cpp; sourceTree = "<group>"; };
+		7EC84F7E228A6AB80035B557 /* Stack_Manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack_Manager.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				7EC84F67228A03380035B557 /* main.cpp */,
+				7EC84F80228A6ABC0035B557 /* Stack_Manager */,
+				7EC84F79228A69970035B557 /* Tree */,
 				7EC84F75228A05B50035B557 /* LinkedList */,
 				7EC84F71228A03590035B557 /* Node */,
 			);
@@ -86,6 +94,24 @@
 				7EC84F72228A05B10035B557 /* LinkedList.cpp */,
 			);
 			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		7EC84F79228A69970035B557 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				7EC84F76228A69930035B557 /* Tree.cpp */,
+				7EC84F77228A69930035B557 /* Tree.hpp */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		7EC84F80228A6ABC0035B557 /* Stack_Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7EC84F7E228A6AB80035B557 /* Stack_Manager.hpp */,
+				7EC84F7D228A6AB80035B557 /* Stack_Manager.cpp */,
+			);
+			path = Stack_Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +171,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EC84F68228A03380035B557 /* main.cpp in Sources */,
+				7EC84F78228A69930035B557 /* Tree.cpp in Sources */,
 				7EC84F74228A05B10035B557 /* LinkedList.cpp in Sources */,
+				7EC84F7F228A6AB80035B557 /* Stack_Manager.cpp in Sources */,
 				7EC84F70228A03560035B557 /* Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
