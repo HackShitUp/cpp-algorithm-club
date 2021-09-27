@@ -1,5 +1,5 @@
 # cpp-algorithm-club
-## Copyright © 2019, Josh Choi X Nanogram, LLC
+## Copyright © 2019, Josh Choi
 Data structures in C++.
 
 ### Notes on C++
